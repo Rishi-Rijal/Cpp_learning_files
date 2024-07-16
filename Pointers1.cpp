@@ -27,9 +27,10 @@ int main(){
     *ptrX = 66;
     cout << "After changing the value, value at address prtX is " << *ptrX << endl; //66
 
+
+    // another example;
     int *ptrZ;
     *ptrZ = 63;
-
     int value = *ptrZ;
     cout << "the value is " << value << endl;
 
